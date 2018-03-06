@@ -1,0 +1,54 @@
+body{
+    height: 650px;
+    background-color: black;
+    overflow: hidden;
+}
+.all {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.blank{
+    width: 100%;
+    height: 80px;
+}
+.lunpoBox{
+    position: relative;
+    display: inline-block;
+    left: 25%;
+    width: 2500px;
+    transition: 1s transform;
+}
+.lunpoBox img{
+    -webkit-box-reflect: below 0 -webkit-linear-gradient(top,rgba(250,250,250,0),rgba(250,250,250,.0) 30%,rgba(250,250,250,0.45));
+    box-reflect: below 0 -webkit-linear-gradient(top,rgba(250,250,250,0),rgba(250,250,250,.0) 30%,rgba(250,250,250,0.45));
+}
+.imgBox{
+    display: inline-block;
+    height: 400px;
+}
+.photo{
+    width: 240px;
+    height: 150px;
+    margin-top: 250px;
+    cursor: pointer;
+    transition: 1s width, 1s height, 1s margin;
+}
+.active{
+    width: 550px;
+    height: 400px;
+    margin-top: 0px;
+}
+.button{
+    position:absolute;
+    top:80%;
+    cursor: pointer;
+    z-index: 2;
+}
+.pre{
+    left: 20px;
+}
+.next{
+    right: 20px;
+}
+
